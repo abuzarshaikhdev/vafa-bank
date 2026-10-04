@@ -4,7 +4,7 @@ An autonomous, client-side web application designed to simulate core real-world 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 *   **Role-Based Access Control (RBAC):** Common entry portal route-splitting into three distinct dashboards depending on explicit user credentials.
 *   **Employee Module (Front-Desk Operator):** Captures customer KYC metadata via multi-field entry forms, creates non-repeating 14-digit Account Numbers, issues Customer IDs, and manages manual localized over-the-counter deposits and withdrawals.
@@ -29,7 +29,7 @@ The repository consists of modular decoupled views and centralized execution eng
 
 ---
 
-## 🛠️ Tech Stack & Hardware Baseline
+## Tech Stack & Hardware Baseline
 
 ### Software Layer
 *   **Structure:** HTML5
@@ -44,7 +44,7 @@ The repository consists of modular decoupled views and centralized execution eng
 
 ---
 
-## 🔄 System Workflow & Process Topology
+## System Workflow & Process Topology
 
 ```text
                   ┌──────────────────────┐
@@ -76,19 +76,8 @@ The repository consists of modular decoupled views and centralized execution eng
 
 ---
 
-## 🔮 Roadmap & Next Steps
+## Roadmap & Next Steps
 
 *   **Server-Side Migration:** Replacing the browser's volatile `localStorage` runtime with a persistent web backend (Node.js/Express) combined with a structural transactional relational database (MySQL/MongoDB).
 *   **Cryptographic Layer:** Moving away from plaintext client string storage to server-side token management, cryptographic password hashing (bcrypt), and Multi-Factor Authentication schemes.
 *   **Advanced Features:** Building automated parsing modules to output downloadable, print-ready PDF statements and configuring multi-tiered analytics reports for administrators.
-
----
-
-## 🎓 Contributor Credits
-
-Developed as part of the Full Stack Java Programming Track at the **Lokmanya Tilak College of Engineering (An Autonomous Institute Affiliated to Mumbai University)**:
-
-*   **Vansika Vipin Mishra** (AIMLB226)
-*   **Ashutosh Anilkumar Pathak** (AIMLB235)
-*   **Shaikh Abuzar Abdullah** (AIMLB246)
-*   **Shaikh Mohd Faisal Shamshad** (AIMLB247)
